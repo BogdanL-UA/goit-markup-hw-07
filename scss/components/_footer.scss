@@ -1,0 +1,26 @@
+.footer {
+  background-color: $hero-bg-color;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__business-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $main-white-color;
+
+    margin-bottom: 20px;
+  }
+}

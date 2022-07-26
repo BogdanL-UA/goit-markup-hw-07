@@ -10,16 +10,16 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <div class="container">
-        <div class="header-content">
+        <div class="header__content">
           <nav class="nav">
             <ul class="nav__list">
               <li class="nav__logo-item">
-                <a class="logo nav__logo" href="index.html"
+                <a class="logo logo--black" href="index.html"
                   ><span class="logo__part">Web</span>Studio</a
                 >
               </li>
@@ -36,11 +36,11 @@
               </li>
             </ul>
           </nav>
-          <ul class="contact-list">
-            <li class="contact-list__item">
-              <a class="contact-link" href="mailto:info@devstudio.com">
+          <ul class="contacts-list">
+            <li class="contacts-list__item">
+              <a class="contacts-list__link" href="mailto:info@devstudio.com">
                 <svg
-                  class="contact-icon"
+                  class="contacts-icon"
                   aria-hidden="true"
                   width="16"
                   height="12"
@@ -50,10 +50,10 @@
                 info@devstudio.com</a
               >
             </li>
-            <li class="contact-list__item">
-              <a class="contact-link" href="tel:+380961111111">
+            <li class="contacts-list__item">
+              <a class="contacts-list__link" href="tel:+380961111111">
                 <svg
-                  class="contact-icon"
+                  class="contacts-icon"
                   aria-hidden="true"
                   width="10"
                   height="16"
@@ -76,38 +76,30 @@
       </section>
 
       <section class="section">
-        <div class="container project-container">
+        <div class="container">
           <ul class="filters">
             <li class="filters__item">
-              <button class="filters__item__button" type="button">Все</button>
+              <button class="filters__button" type="button">Все</button>
             </li>
 
             <li class="filters__item">
-              <button class="filters__item__button" type="button">
-                Веб-сайты
-              </button>
+              <button class="filters__button" type="button">Веб-сайты</button>
             </li>
 
             <li class="filters__item">
-              <button class="filters__item__button" type="button">
-                Приложения
-              </button>
+              <button class="filters__button" type="button">Приложения</button>
             </li>
 
             <li class="filters__item">
-              <button class="filters__item__button" type="button">
-                Дизайн
-              </button>
+              <button class="filters__button" type="button">Дизайн</button>
             </li>
             <li class="filters__item">
-              <button class="filters__item__button" type="button">
-                Маркетинг
-              </button>
+              <button class="filters__button" type="button">Маркетинг</button>
             </li>
           </ul>
 
-          <ul class="project-list">
-            <li class="project-list__item">
+          <ul class="project__list">
+            <li class="project__item">
               <div class="overlay-container">
                 <img
                   class="project-img"
@@ -124,13 +116,13 @@
                   </p>
                 </div>
               </div>
-              <div class="project-text-container">
-                <h2 class="project-name">Технокряк</h2>
-                <p class="project-type">Веб-сайт</p>
+              <div class="project__text-container">
+                <h2 class="project__name">Технокряк</h2>
+                <p class="project__type">Веб-сайт</p>
               </div>
             </li>
 
-            <li class="project-list__item">
+            <li class="project__item">
               <div class="overlay-container">
                 <img
                   class="project-img"
@@ -148,13 +140,13 @@
                 </div>
               </div>
 
-              <div class="project-text-container">
-                <h2 class="project-name">Постер New Orlean vs Golden Star</h2>
-                <p class="project-type">Дизайн</p>
+              <div class="project__text-container">
+                <h2 class="project__name">Постер New Orlean vs Golden Star</h2>
+                <p class="project__type">Дизайн</p>
               </div>
             </li>
 
-            <li class="project-list__item">
+            <li class="project__item">
               <div class="overlay-container">
                 <img
                   class="project-img"
@@ -172,13 +164,13 @@
                 </div>
               </div>
 
-              <div class="project-text-container">
-                <h2 class="project-name">Ресторан Seafood</h2>
-                <p class="project-type">Приложение</p>
+              <div class="project__text-container">
+                <h2 class="project__name">Ресторан Seafood</h2>
+                <p class="project__type">Приложение</p>
               </div>
             </li>
 
-            <li class="project-list__item">
+            <li class="project__item">
               <div class="overlay-container">
                 <img
                   class="project-img"
@@ -196,13 +188,13 @@
                 </div>
               </div>
 
-              <div class="project-text-container">
-                <h2 class="project-name">Проект Prime</h2>
-                <p class="project-type">Маркетинг</p>
+              <div class="project__text-container">
+                <h2 class="project__name">Проект Prime</h2>
+                <p class="project__type">Маркетинг</p>
               </div>
             </li>
 
-            <li class="project-list__item">
+            <li class="project__item">
               <div class="overlay-container">
                 <img
                   class="project-img"
@@ -219,13 +211,13 @@
                   </p>
                 </div>
               </div>
-              <div class="project-text-container">
-                <h2 class="project-name">Проект Boxes</h2>
-                <p class="project-type">Приложение</p>
+              <div class="project__text-container">
+                <h2 class="project__name">Проект Boxes</h2>
+                <p class="project__type">Приложение</p>
               </div>
             </li>
 
-            <li class="project-list__item">
+            <li class="project__item">
               <div class="overlay-container">
                 <img
                   class="project-img"
@@ -243,13 +235,13 @@
                 </div>
               </div>
 
-              <div class="project-text-container">
-                <h2 class="project-name">Inspiration has no Borders</h2>
-                <p class="project-type">Веб-сайт</p>
+              <div class="project__text-container">
+                <h2 class="project__name">Inspiration has no Borders</h2>
+                <p class="project__type">Веб-сайт</p>
               </div>
             </li>
 
-            <li class="project-list__item">
+            <li class="project__item">
               <div class="overlay-container">
                 <img
                   class="project-img"
@@ -267,13 +259,13 @@
                 </div>
               </div>
 
-              <div class="project-text-container">
-                <h2 class="project-name">Издание Limited Edition</h2>
-                <p class="project-type">Дизайн</p>
+              <div class="project__text-container">
+                <h2 class="project__name">Издание Limited Edition</h2>
+                <p class="project__type">Дизайн</p>
               </div>
             </li>
 
-            <li class="project-list__item">
+            <li class="project__item">
               <div class="overlay-container">
                 <img
                   class="project-img"
@@ -291,13 +283,13 @@
                 </div>
               </div>
 
-              <div class="project-text-container">
-                <h2 class="project-name">Проект LAB</h2>
-                <p class="project-type">Маркетинг</p>
+              <div class="project__text-container">
+                <h2 class="project__name">Проект LAB</h2>
+                <p class="project__type">Маркетинг</p>
               </div>
             </li>
 
-            <li class="project-list__item">
+            <li class="project__item">
               <div class="overlay-container">
                 <img
                   class="project-img"
@@ -315,9 +307,9 @@
                 </div>
               </div>
 
-              <div class="project-text-container">
-                <h2 class="project-name">Growing Business</h2>
-                <p class="project-type">Приложение</p>
+              <div class="project__text-container">
+                <h2 class="project__name">Growing Business</h2>
+                <p class="project__type">Приложение</p>
               </div>
             </li>
           </ul>
@@ -326,9 +318,9 @@
     </main>
 
     <footer class="footer">
-      <div class="container footer-content">
-        <div class="business-card">
-          <a class="logo business-card__logo" href="index.html"
+      <div class="container footer__content">
+        <div class="footer__business-card">
+          <a class="logo logo--white" href="index.html"
             ><span class="logo__part">Web</span>Studio</a
           >
           <address class="address">
@@ -337,12 +329,12 @@
                 <p class="address__text">г. Киев, пр-т Леси Украинки, 26</p>
               </li>
               <li class="address__item">
-                <a class="email-link" href="mailto:info@example.com">
+                <a class="address__link" href="mailto:info@example.com">
                   info@example.com</a
                 >
               </li>
               <li class="address__item">
-                <a class="phone-number-link" href="tel:+380991111111">
+                <a class="address__link" href="tel:+380991111111">
                   +38 099 111 11 11</a
                 >
               </li>
@@ -355,9 +347,9 @@
           <div class="social">
             <ul class="social__list">
               <li class="social__item">
-                <a class="social-link social-link--white" href="#"
+                <a class="social__link social__link--white" href="#"
                   ><svg
-                    class="social-link__icon"
+                    class="social__link-icon"
                     aria-label="instagram link"
                     width="20"
                     height="20"
@@ -366,9 +358,9 @@
                 ></a>
               </li>
               <li class="social__item">
-                <a class="social-link social-link--white" href="#"
+                <a class="social__link social__link--white" href="#"
                   ><svg
-                    class="social-link__icon"
+                    class="social__link-icon"
                     aria-label="twitter link"
                     width="20"
                     height="20"
@@ -377,9 +369,9 @@
                 ></a>
               </li>
               <li class="social__item">
-                <a class="social-link social-link--white" href="#"
+                <a class="social__link social__link--white" href="#"
                   ><svg
-                    class="social-link__icon"
+                    class="social__link-icon"
                     aria-label="facebook link"
                     width="20"
                     height="20"
@@ -388,9 +380,9 @@
                 ></a>
               </li>
               <li class="social__item">
-                <a class="social-link social-link--white" href="#"
+                <a class="social__link social__link--white" href="#"
                   ><svg
-                    class="social-link__icon"
+                    class="social__link-icon"
                     aria-label="linkedin link"
                     width="20"
                     height="20"
@@ -409,20 +401,20 @@
             class="subscribe-form"
             novalidate
           >
-            <div class="input-container">
+            <div class="subscribe-form__input-container">
               <label class="footer__title" for="email">
                 Подпишитесь на рассылку</label
               >
               <input
-                class="email-input"
+                class="subscribe-form__email-input"
                 type="email"
                 name="email"
                 id="email"
                 placeholder="E-mail"
               />
             </div>
-            <div class="subscribe-button-container">
-              <button type="submit" class="button subscribe-button">
+            <div class="subscribe-form__button-container">
+              <button type="submit" class="button subscribe-form__button">
                 Подписаться
                 <svg class="submit-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use>

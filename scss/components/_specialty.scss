@@ -1,0 +1,31 @@
+.specialty-list {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+
+  &__icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+
+    background: $secondary-bg-color;
+  }
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__title {
+    color: $primary-text-color;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  &__text {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+}
